@@ -1,3 +1,5 @@
+homework-rest-api
+
 ## GoIT Node.js Course Template Homework
 
 Выполните форк этого репозитория для выполнения домашних заданий (2-6)
