@@ -19,8 +19,7 @@ const schemaUpdateContact = Joi.object({
   name: Joi.string().min(3).max(30),
   email: Joi.string().email(),
   phone: Joi.string(),
-  password: Joi.string().min(7).max(15),
-  subscription: Joi.string(),
+  
 });
 
 const validate = (schema, obj, next) => {
